@@ -11,6 +11,6 @@
         public int LivingSpace { get; set; }    //kopeja kvadratura
         public int HomeId { get; set; }          
         public Home Home { get; set; }
-        public List<Resident> Residents { get; set; }
+        public List<Resident> Residents { get; set; }       //relation
     }
 }
